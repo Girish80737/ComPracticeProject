@@ -40,7 +40,7 @@ public class NinzaCRM {
 		sel.deselectByVisibleText("OnGoing");
 		driver.findElement(By.xpath("//input[value='Add Project']")).click();
 		
-			
+			driver.findElement(By.id(""));
 	}
 
 }
