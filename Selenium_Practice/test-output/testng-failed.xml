@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="scenarios.Automation_Blogspot">
+      <class name="ninzacrm.Assertion">
         <methods>
-          <include name="dragAndDrop"/>
+          <include name="assertion"/>
         </methods>
-      </class> <!-- scenarios.Automation_Blogspot -->
+      </class> <!-- ninzacrm.Assertion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
